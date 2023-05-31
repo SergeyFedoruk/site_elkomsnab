@@ -1,0 +1,33 @@
+.logo{
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  text-align: center;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 0em;
+  font-style: normal;
+  font-weight: 540;
+  font-size: 46px;
+  line-height: 110%;
+  text-decoration: none;
+  color: $color-main;
+}
+.logo-object{
+  width: 65px;
+  height: 60px;
+}
+
+.logo-path{
+  @extend %transition;
+}
+
+
+.logo-svg:hover{
+  cursor: pointer;
+  &:hover{
+    .logo-path{
+      fill: $color-primary;
+    }
+  }
+}
