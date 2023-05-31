@@ -5,12 +5,18 @@
 //Base
 @import "base/base";
 @import "base/logo";
+@import "base/icons";
 
 
 
 //layouts
 @import "layouts/wrapper";
+@import "layouts/columns";
 @import "layouts/header";
+
+@import "layouts/footer";
 
 //Components
 @import "components/navigation";
+@import "components/contact-us";
+@import "components/about-us";
