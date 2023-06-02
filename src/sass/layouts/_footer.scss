@@ -40,11 +40,8 @@
     @include font($size:1.6rem, $height: 3.5rem, $weight: normal );
     text-decoration: none;
     &:hover{
-      color: $color-light;
+      color: $color-main;
     }
   }
 }
-.copyright{
-  margin: 0 auto;
-  color: $color-main;
-}
+

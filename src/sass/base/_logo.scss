@@ -15,6 +15,15 @@
   text-decoration: none;
   color: $color-main;
 
+}
+  .logo-hovered{
+    &:hover{
+      border-radius: 15px;
+      background: $color-tag;
+      box-shadow: 0.001px 2px 4px 4px;
+      color: $color-tag;
+
+  }
 
 }
 .logo-object{

@@ -9,11 +9,14 @@
     <link rel="stylesheet" href="src/sass/style.css">
 </head>
 <body>
-<header class="header">
+<header class="header" id="header">
     <div class="wrapper header__wrapper">
         <div class="header__logo-line">
             <span class="header__hamburger hamburger"><span class="hamburger__line"></span></span>
-            <a href="./index.html" class="logo">
+
+            <a tabindex="16" href="#header" id="top"></a>
+
+            <a href="./index.html" class="logo logo-hovered">
                 <object type="image/png" data="./src/img/logo-Elkomsnab-.png" class="logo-object">
                     Ваш браузер не поддерживает PNG изображения
                 </object><h1 id="logo" class="logo">Элкомснаб</h1>
@@ -22,13 +25,64 @@
         <nav class="header__navigation">
             <ul class="navigation">
                 <li class="navigation__link_chosen"><a tabindex="1" href="./index.html">Главная</a></li>
-                <li class="navigation__link"><a tabindex="2" href="#">Каталог</a></li>
+                <li class="navigation__link"><a tabindex="2" href="./katalog.html">Каталог</a></li>
                 <li class="navigation__link"><a tabindex="3" href="#about-us">О нас</a></li>
                 <li class="navigation__link"><a tabindex="4" href="#footer">Контакты</a></li>
             </ul>
         </nav>
     </div>
 </header>
+
+<section class="products">
+    <div class="wrapper">
+        <h2 class="products__title">Продукция</h2>
+        <p class="products__description">Наш профиль - неспециализированная торговля, если Вы что-то не нашли у нас на сайте, отправьте нам запрос на электронную почту и мы обязательно проработаем Вашу заявку и предоставим ответ!</p>
+                <div class="layout-3-column product-wrapper">
+            <a class="product__link" tabindex="5" href="./katalog.html#palatki-svarshika"><article class="product block-shadowed">
+                <img class="product__image" src="./src/img/palatki/palatka-shater.avif" alt="Палатка сварщика">
+                <div class="product__content">
+                    <h4 class="product__name">Палатки и укрытия для монтажа, сварки и ремонта труб</h4>
+
+                </div>
+            </article></a>
+                    <a class="product__link" tabindex="6" href="#"><article class="product block-shadowed">
+                <img class="product__image" src="./src/img/palatki/centrator-czn-530.avif" alt="центратор ЦЗН-530">
+                <div class="product__content">
+                    <h4 class="product__name">Центраторы для сварки металлических труб</h4>
+
+                </div>
+                    </article></a>
+                    <a class="product__link" tabindex="7" href="#"><article class="product block-shadowed">
+                <img class="product__image" src="./src/img/palatki/stol-svarshika.avif" alt="столы сварщика">
+                <div class="product__content">
+                    <h4 class="product__name">Металлическая мебель</h4>
+
+                </div>
+                    </article></a>
+                    <a class="product__link" tabindex="8" href="#"><article class="product product_wide block-shadowed">
+                <img class="product__image" src="./src/img/palatki/zazemlenie-avtocistern.avif" alt="УЗА-4А Устройство заземления автоцистерн">
+                <div class="product__content">
+                    <h4 class="product__name">Оборудование для нефтебаз, АЗС, АЗК, АГЗС</h4>
+
+                </div>
+                    </article></a>
+                    <a class="product__link" tabindex="9" href="#"><article class="product block-shadowed">
+                <img class="product__image" src="./src/img/palatki/timer.avif" alt="запчасти общепита">
+                <div class="product__content">
+                    <h4 class="product__name">Запчасти для предприятий общественного питания</h4>
+
+                </div>
+                    </article></a>
+                    <a class="product__link" tabindex="10" href="#"><article class="product block-shadowed">
+                        <img class="product__image" src="./src/img/palatki/proizvodstvennye-tovari.avif" alt="прочая продукция">
+                        <div class="product__content">
+                            <h4 class="product__name">Прочие промышленные товары </h4>
+
+                        </div>
+                    </article></a>
+        </div>
+    </div>
+</section>
 
 
 <section id="about-us" class="about-us">
@@ -38,7 +92,7 @@
             Нашими сильными сторонами являются:
         </p>
         <ul><li>полная комплектация заявки заказчика с учетом всего спектра запрашиваемой разнородной продукции,</li>
-        <li>поиск и поставка под заказ продукции не представленной или отсутствующей на рынке РБ ,</li>
+        <li>поиск и поставка под заказ продукции не представленной или отсутствующей на рынке РБ,</li>
         <li>подбор и согласование аналогов с Вашими техническими специалистами.</li>
     </ul>
         <div class="trust-us"><span>Нам доверяют:</span>
@@ -61,7 +115,7 @@
 </section>
 <footer id="footer" class="footer">
     <div class="wrapper footer__wrapper">
-        <a href="./index.html" class="logo-footer">
+        <a href="./index.html" class="logo-footer logo-hovered">
             <object type="image/png" data="./src/img/logo-Elkomsnab-.png" class="logo-object">
                 Ваш браузер не поддерживает PNG изображения
             </object>
@@ -70,21 +124,21 @@
             <div class="footer-navigation__column">
                 <h4 class="footer-navigation__title">Контакты</h4>
                 <ul class="footer-navigation__links">
-                    <li class="contact-us__link"><span class="ico ico_letter"></span><a href="mailto:eks-bel@mail.ru">eks-bel@mail.ru</a></li>
-                    <li class="contact-us__link"><span><span class="ico ico_fax"></span></span><a href="tel:+375172130627">+375 17 213 06 27</a></li>
+                    <li class="contact-us__link"><span class="ico ico_letter"></span><a tabindex="11" href="mailto:eks-bel@mail.ru">eks-bel@mail.ru</a></li>
+                    <li class="contact-us__link"><span><span class="ico ico_fax"></span></span><a tabindex="12" href="tel:+375172130627">+375 17 213 06 27</a></li>
                     <li class="contact-us__link"><span><span class="ico ico_phone"></span></span><a href="tel:+375173026047">+375 17 302 60 47</a></li>
-                    <li class="contact-us__link"><span><span class="ico ico_mobile"></span></span><a href="tel:+375292738563">+375 29 273 85 63</a></li>
-                    <li class="contact-us__link"><span><span class="ico ico_mobile"></span></span><a href="tel:+375336690965">+375 33 669 09 65</a></li>
+                    <li class="contact-us__link"><span><span class="ico ico_mobile"></span></span><a tabindex="13" href="tel:+375292738563">+375 29 273 85 63</a></li>
+                    <li class="contact-us__link"><span><span class="ico ico_mobile"></span></span><a tabindex="14" href="tel:+375336690965">+375 33 669 09 65</a></li>
                 </ul>
             </div>
             <div class="footer-navigation__column">
                 <h4 class="footer-navigation__title">Адрес</h4>
                 <div class="footer-navigation__links">
                 <p class="contact-us__link">
-                    <span class="ico ico_address "></span><a href="https://yandex.by/maps/157/minsk/?ll=27.515621%2C53.902427&mode=poi&poi%5Bpoint%5D=27.516081%2C53.902415&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D143315570970&z=20" target="_blank">Республика Беларусь, 220073, г. Минск, ул. Гусовского, д. 6, ком. 3.7</a>
+                    <span class="ico ico_address "></span><a tabindex="15" href="https://yandex.by/maps/157/minsk/?ll=27.515621%2C53.902427&mode=poi&poi%5Bpoint%5D=27.516081%2C53.902415&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D143315570970&z=20" target="_blank">Республика Беларусь, 220073, г. Минск, ул. Гусовского, д. 6, ком. 3.7</a>
                 </p>
                 <ul class="footer-navigation__links">
-                    <li >УНН 192622981</li>
+                    <li >УНП 192622981</li>
                     <li >р/с BY24BLBB30120192622981001001</li>
                     <li >в ОАО «Белинвестбанк»</li>
                 </ul>
@@ -93,5 +147,6 @@
           </div>
         </div>
      </footer>
+
 </body>
 </html>
