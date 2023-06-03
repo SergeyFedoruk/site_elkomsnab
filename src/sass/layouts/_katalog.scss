@@ -1,0 +1,15 @@
+.katalog{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 100%;
+
+>*{
+  width: 45%;
+  margin: 0 auto;
+  @include media-laptop{
+width: 95%;
+  }
+}
+
+}
