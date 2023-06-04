@@ -1,3 +1,4 @@
+@import "layouts/_products-card.css";
 .navigation__link > *, .footer-navigation__links a, .logo-path {
   transition: all 0.3s ease-out;
 }
