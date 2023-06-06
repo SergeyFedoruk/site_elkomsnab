@@ -44,7 +44,13 @@
 .ico_address{
   background-image: url("./../../src/img/ico/address.svg");
   background-repeat: no-repeat;
-  width: 20.62px;
-  height: 30px;
-  padding: 0 15px;
+  width: 22.26px;
+  height: 32px;
+  margin-right: 10px;
+  padding-left: 0;
+
+  vertical-align: central;
+    &:hover{
+      background-image: url("./../../src/img/ico/address-hovered.svg");
+  }
   }
