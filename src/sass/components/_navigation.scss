@@ -10,7 +10,7 @@
       >*{
     text-decoration: none;
     color: $color-text-navigation;
-        padding: 0 0 37px;
+        padding: 0 0 45px;
         @extend %transition;
       &:hover{
         color: $color-main;
@@ -24,7 +24,7 @@
   >*{
 
     text-decoration: none;
-    padding: 0 0 37px;
+    padding: 0 0 45px;
     color: $color-main;
     border-bottom: 3px solid;
   }

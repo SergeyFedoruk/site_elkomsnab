@@ -115,7 +115,7 @@ h5 {
 }
 
 .logo {
-  margin: 0;
+  margin-left: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -139,8 +139,6 @@ h5 {
 }
 
 .logo-object {
-  width: 65px;
-  height: 60px;
   margin: auto;
 }
 
@@ -268,7 +266,7 @@ h5 {
 .header {
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
   background: #FFFFFF;
-  padding: 15px 0 17px 0;
+  padding: 0;
 }
 
 .header__wrapper {
@@ -451,7 +449,7 @@ h5 {
 .navigation__link > * {
   text-decoration: none;
   color: #000000;
-  padding: 0 0 37px;
+  padding: 0 0 45px;
 }
 .navigation__link > *:hover {
   color: #ff6600;
@@ -464,7 +462,7 @@ h5 {
 }
 .navigation__link_chosen > * {
   text-decoration: none;
-  padding: 0 0 37px;
+  padding: 0 0 45px;
   color: #ff6600;
   border-bottom: 3px solid;
 }
