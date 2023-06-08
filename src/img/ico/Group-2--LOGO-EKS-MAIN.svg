@@ -62,8 +62,9 @@
 <path fill-rule="evenodd" clip-rule="evenodd" d="M74.5696 58.8661C74.985 59.1462 75.0998 59.5242 74.9136 60C74.7334 59.802 74.5613 59.613 74.3976 59.4331C74.5531 59.2991 74.6104 59.1101 74.5696 58.8661Z" fill="#C5C3B4"/>
 <defs>
 <linearGradient id="paint0_linear_59_275" x1="22.375" y1="-6.61417" x2="46.2643" y2="57.882" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FFE600"/>
+<stop offset="0.5" stop-color="#FFE600"/>
 <stop offset="1" stop-color="#FF0000"/>
+
 </linearGradient>
 </defs>
 </svg>
