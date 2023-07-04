@@ -1,0 +1,103 @@
+.about-us{
+  padding: 20px 0 20px 0;
+}
+.about-us__title{
+  margin:0 0 14px;
+}
+.about-us__description{
+  text-align: justify;
+  padding: 10px;
+}
+.trust-us{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 100%;
+  &>span{
+    margin: auto;
+    }
+}
+.trust-us__airport{
+  background-image: url("./../../src/img/trust/Airport.svg");
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+}
+.trust-us__tec5{
+  background-image: url("./../../src/img/trust/tec5.svg");
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+}
+.trust-us__belorusneft{
+  background-image: url("./../../src/img/trust/belorusneft.svg");
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+}
+.trust-us__cmp169{
+  background-image: url("./../../src/img/trust/cmp169.svg");
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+}
+.trust-us__gazprom{
+  background-image: url("./../../src/img/trust/gazprom.svg");
+  background-repeat: no-repeat;
+  width: 115px;
+  height: 64px;
+}
+.trust-us__gomelenergo{
+  background-image: url("./../../src/img/trust/gomelenergo.svg");
+  background-repeat: no-repeat;
+  width: 115px;
+  height: 64px;
+}
+.trust-us__grodnogaz{
+  background-image: url("./../../src/img/trust/grodnogaz.svg");
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+}
+.trust-us__grodnogazstroiizoliacia{
+  background-image: url("./../../src/img/trust/grodnogazstroiizoliacia.svg");
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+}
+.trust-us__grodnomyasokombinat{
+  background-image: url("./../../src/img/trust/grodnomyasokombinat.svg");
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+}
+.trust-us__molodech-el-seti{
+  background-image: url("./../../src/img/trust/molodech-elektro-seti.svg");
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+}
+.trust-us__novogaz{
+  background-image: url("./../../src/img/trust/novogaz.svg");
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+}
+.trust-us__belaz{
+  background-image: url("./../../src/img/trust/belaz.svg");
+  background-repeat: no-repeat;
+  width: 131px;
+  height: 64px;
+}
+.trust-us__metro{
+  background-image: url("./../../src/img/trust/metro.svg");
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+}
+.trust-us__vitebskgazstroi{
+  background-image: url("./../../src/img/trust/vitebskgazstroi.svg");
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+}

@@ -1,0 +1,19 @@
+.contact-us__link{
+  margin: 0 0 19px;
+  display: flex;
+  align-items: center;
+  @include font($size: 2.5rem, $height: 2.6rem, $weight: normal);
+  @include media-tablet{
+    justify-content: center;
+  }
+  a{
+    text-decoration: none;
+    color: $color-text;
+    padding-left: 11px;
+    &:hover{
+      a{
+        text-decoration: underline;
+      }
+    }
+  }
+}

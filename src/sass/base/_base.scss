@@ -1,0 +1,49 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 1.6rem;
+  font-family:  'Open Sans',Arial,Helvetica,Verdana,sans-serif;
+  line-height: 1.572;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.06em;
+}
+h1{
+  font-family:  'Open Sans Condensed',franklingothicdemicondcRg,Arial,Helvetica Neue,Helvetica,sans-serif;
+  @extend %font-add;
+  @include font($size:2.9rem, $height:3.4rem);
+  @include media-mobile{
+    @include font($height: 2.5rem, $size: 3.0rem)
+  }
+}
+h2{
+  font-family:  'Open Sans Condensed',franklingothicdemicondcRg,Arial,Helvetica Neue,Helvetica,sans-serif;
+  @include font($size:2.2rem, $height:2.7rem);
+  @include media-mobile{
+    @include font($height: 2.3rem, $size: 2.0rem)
+  }
+}
+h3{
+  font-family:  'Open Sans Condensed',franklingothicdemicondcRg,Arial,Helvetica Neue,Helvetica,sans-serif;
+  @include font($size:2.0rem, $height:2.4rem);
+  @include media-mobile{
+    @include font($height: 3.1rem, $size: 2.1rem)
+  }
+}
+h4{
+  font-family:  'Open Sans Condensed',franklingothicdemicondcRg,Arial,Helvetica Neue,Helvetica,sans-serif;
+  @include font($size:2.2rem, $height:3.0rem, $weight:600);
+  @include media-tablet{
+    @include font($height: 3.0rem, $size: 2.0rem)
+  }
+}
+h5{
+  font-family:  'Open Sans Condensed',franklingothicdemicondcRg,Arial,Helvetica Neue,Helvetica,sans-serif;
+  @include font($size:1.6rem, $height:2.6rem);
+}
+.block-shadowed{
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  border-radius: 10px;
+}
